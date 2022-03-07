@@ -62,7 +62,7 @@ hr {
 
 .back {
     opacity:.2;
-    text-shadow: 2px 0 0 #ce0841, -2px 0 0 #009FFF;
+    text-shadow: 5px 0 0 #ce0841, -5px 0 0 #009FFF;
 }
 
 .ml-2 {
