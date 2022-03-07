@@ -53,6 +53,10 @@ p {
     margin-bottom:.5rem;
 }
 
+h1 {
+    text-shadow: 2px 0 0 #ce0841, -2px 0 0 #009FFF;
+}
+
 hr {
     border:0;
     border-top:1px solid rgba(255,255,255,.2);
