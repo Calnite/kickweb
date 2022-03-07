@@ -43,6 +43,14 @@ body {
     font-size:1.6rem;
 }
 
+.back {
+    opacity:.2;
+    animation-duration: 0.01s;
+    animation-name: cyclone;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
 h1 {
     text-align:center;
     margin-bottom:.5rem;
@@ -74,10 +82,7 @@ hr {
     margin:0 auto 1.5rem auto;
 }
 
-.back {
-    opacity:.2;
-    text-shadow: 4px 0 0 #ce0841, -4px 0 0 #009FFF;
-}
+
 
 .ml-2 {
     margin:0;
