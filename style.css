@@ -52,6 +52,7 @@ body {
 }
 
 h1 {
+    color:transparent;
     text-align:center;
     margin-bottom:.5rem;
     animation-duration: 0.01s;
@@ -63,11 +64,11 @@ h1 {
 @keyframes cyclone {
   from {
     color:#fff;
-    text-shadow: 2px 0 0 #ce0841, -4px 0 0 #009FFF;
+    text-shadow: 2px 0 0 #FF3FD5, -4px 0 0 #43C7FF;
   }
   to {
     color:#fff;
-    text-shadow: 4px 2px 0 #ce0841, -2px 2px 0 #009FFF;
+    text-shadow: 4px 2px 0 #FF3FD5, -2px 2px 0 #43C7FF;
   }
 }
 
