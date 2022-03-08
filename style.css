@@ -75,6 +75,7 @@ hr {
 }
 
 .btn.btn-primary {
+    width:100%;
     color:#fff;
     background:transparent;
     border:1px solid white;
