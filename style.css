@@ -13,6 +13,16 @@ body {
     font-size:1.2rem;
 }
 
+a {
+ color:#fff;
+ text-decoration:none;
+}
+
+a {
+ color:#FF3FD5;
+ text-decoration:none;
+}
+
 .redknot {
     font-family: 'Noto Serif KR', serif;
 }
