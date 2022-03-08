@@ -72,6 +72,20 @@ hr {
     font-family:'poppins', sans-serif;
 }
 
+.btn.btn-primary {
+    color:white;
+    background:transparent;
+    border:1px solid white;
+}
+
+.btn.btn-primary:hover,.btn.btn-primary:focus,.btn.btn-primary.active {
+    color:white;
+    background:transparent;
+    border:1px solid white;
+}
+
+
+
 /* song */
 
 .redknot {
