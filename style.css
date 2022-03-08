@@ -23,43 +23,6 @@ a {
  text-decoration:none;
 }
 
-.redknot {
-    font-family: 'Noto Serif KR', serif;
-}
-
-.container {
-    max-width:600px;
-    padding:2rem;
-    margin:auto;
-}
-
-.intro, .verse, .chorus, .solo,
-.strophe {
-    margin-bottom:3rem;
-}
-
-.chorus {
-    font-family: 'Ruthie', cursive;
-    font-size:2.2rem;
-}
-
-.verse {
-    font-family: 'Eater', cursive;
-    font-size:1.2rem;
-}
-
-.solo {
-    font-family: 'akronim', cursive;
-    font-size:1.6rem;
-}
-
-.back {
-    opacity:.2;
-    animation-duration: 0.01s;
-    animation-name: cyclone;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
 
 h1 {
     color:transparent;
@@ -93,9 +56,55 @@ hr {
     margin:0 auto 1.5rem auto;
 }
 
-
-
 .ml-2 {
     margin:0;
     margin-left:1rem;
 }
+
+.container {
+    max-width:600px;
+    padding:2rem;
+    margin:auto;
+}
+
+
+.hero {
+    font-family:'poppins', sans-serif;
+}
+
+/* song */
+
+.redknot {
+    font-family: 'Noto Serif KR', serif;
+}
+
+
+
+.intro, .verse, .chorus, .solo,
+.strophe {
+    margin-bottom:3rem;
+}
+
+.chorus {
+    font-family: 'Ruthie', cursive;
+    font-size:2.2rem;
+}
+
+.verse {
+    font-family: 'Eater', cursive;
+    font-size:1.2rem;
+}
+
+.solo {
+    font-family: 'akronim', cursive;
+    font-size:1.6rem;
+}
+
+.back {
+    opacity:.2;
+    animation-duration: 0.01s;
+    animation-name: cyclone;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
