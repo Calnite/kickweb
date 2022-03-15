@@ -3,8 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ruthie&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rock+3D&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+
+/************
+general themes 
+************/
 
 body {
     background:#111;
@@ -25,7 +28,6 @@ a:hover, a.focus, a.active {
     transition:all .4s ease;
 }
 
-
 h1 {
     color:transparent;
     text-align:center;
@@ -38,11 +40,9 @@ h1 {
 
 @keyframes cyclone {
   from {
-    color:#fff;
     text-shadow: 2px 0 0 #FF3FD5, -4px 0 0 #43C7FF;
   }
   to {
-    color:#fff;
     text-shadow: 4px 2px 0 #FF3FD5, -2px 2px 0 #43C7FF;
   }
 }
@@ -69,11 +69,6 @@ hr {
     margin:auto;
 }
 
-
-.hero {
-    font-family:'poppins', sans-serif;
-}
-
 .btn.btn-primary {
     width:100%;
     color:#fff;
@@ -90,15 +85,58 @@ hr {
     transition:all .4s ease;
 }
 
+::-moz-selection { background: transparent;}
+::selection { background: transparent;}
 
 
-/* song */
+/************
+custon classes 
+************/
+
+
+.hero {
+    height:100vh;
+    background:#111;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.hero-title{
+    font-size:20rem;
+    text-transform:uppercase;
+    text-align:center;
+    letter-spacing:10px;
+    margin:auto;
+}
+
+.hero-title a {
+    color:#fff;
+    animation-duration: 0.01s;
+    animation-name: cyclone;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transition:all .4s ease;
+}
+
+.hero-title a:hover, .hero-title a:focus{
+    color:#FF3FD5!important;
+    animation-duration: 0.01s;
+    animation-name: cyclone;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transition:all .4s ease;
+}
+
+
+/************ 
+sprint 1 song 
+************/
+
 
 .redknot {
     font-family: 'Noto Serif KR', serif;
 }
-
-
 
 .intro, .verse, .chorus, .solo,
 .strophe {
@@ -128,3 +166,40 @@ hr {
     animation-direction: alternate;
 }
 
+
+/************
+sprint 2 song 
+************/
+
+
+
+.lo {
+    font-size:20rem;
+    color:transparent;
+
+    animation-duration: 4s;
+    animation-name: orcan;
+    animation-delay:4s;
+    transition:all .4s ease;
+}
+
+.fys {
+    font-size:20rem;
+    color:transparent;
+    
+    animation-duration: 4s;
+    animation-name: orcan;
+    animation-delay: 10s;
+    transition:all .4s ease;
+}
+
+
+@keyframes orcan {
+    from {
+      opacity:0;
+    }
+    to {
+      opacity:1;
+    }
+  }
+  
