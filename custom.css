@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ruthie&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rock+3D&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monda&display=swap');
 
 /************
 general themes 
@@ -11,13 +12,19 @@ general themes
 
 body {
     background:#111;
-    color:#fff;
-    font-family: 'Lacquer', cursive;
+    color:#ced4da;
+    font-family: 'Monda', sans-serif;
     font-size:1.2rem;
 }
 
+.flex {
+    display:flex;
+    height:100vh;
+    align-items:center;
+}
+
 a {
- color:#fff;
+ color:#ced4da;
  text-decoration:none;
     transition:all .4s ease;
 }
@@ -28,10 +35,10 @@ a:hover, a.focus, a.active {
     transition:all .4s ease;
 }
 
-h1 {
-    color:transparent;
-    text-align:center;
-    margin-bottom:.5rem;
+h1.title {
+    font-size:6vw;
+    text-transform:uppercase;
+    letter-spacing:2px;
     animation-duration: 0.01s;
     animation-name: cyclone;
     animation-iteration-count: infinite;
@@ -64,24 +71,26 @@ hr {
 }
 
 .container {
-    max-width:600px;
     padding:2rem;
     margin:auto;
 }
 
 .btn.btn-primary {
-    width:100%;
-    color:#fff;
+    display:block;
     background:transparent;
     border:1px solid white;
-    transition:all .4s ease;
     border-radius:0;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    padding:1rem;
+    font-size:2rem;
+    transition:all .4s ease;
 }
 
 .btn.btn-primary:hover,.btn.btn-primary:focus,.btn.btn-primary.active {
-    color:#111;
-    background:#fff;
-    border:1px solid white;
+    letter-spacing: 4px;
+    color:#fff;
+    border:1px solid #fff;
     transition:all .4s ease;
 }
 
@@ -89,50 +98,32 @@ hr {
 ::selection { background: transparent;}
 
 
-/************
-custon classes 
-************/
-
-
-.hero {
-    height:100vh;
-    background:#111;
-    display:flex;
-    align-items:center;
-    justify-content:center;
+.static {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background:url(https://cdn.discordapp.com/attachments/746833184662224966/940698343192018964/ezgif.com-gif-maker.gif) center fixed;
+    opacity:.8;
+    z-index:-1;
 }
 
-.hero-title{
-    font-size:20rem;
-    text-transform:uppercase;
-    text-align:center;
-    letter-spacing:10px;
-    margin:auto;
+.scanlines {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background:url(https://blackwings.neocities.org/ti/tile01.gif) center fixed;
+    background-size:5px;
+    opacity:.1;
+    z-index:-1;
 }
-
-.hero-title a {
-    color:#fff;
-    animation-duration: 0.01s;
-    animation-name: cyclone;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    transition:all .4s ease;
-}
-
-.hero-title a:hover, .hero-title a:focus{
-    color:#FF3FD5!important;
-    animation-duration: 0.01s;
-    animation-name: cyclone;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    transition:all .4s ease;
-}
-
 
 /************ 
 sprint 1 song 
 ************/
-
 
 .redknot {
     font-family: 'Noto Serif KR', serif;
@@ -165,41 +156,3 @@ sprint 1 song
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
-
-
-/************
-sprint 2 song 
-************/
-
-
-
-.lo {
-    font-size:20rem;
-    color:transparent;
-
-    animation-duration: 4s;
-    animation-name: orcan;
-    animation-delay:4s;
-    transition:all .4s ease;
-}
-
-.fys {
-    font-size:20rem;
-    color:transparent;
-    
-    animation-duration: 4s;
-    animation-name: orcan;
-    animation-delay: 10s;
-    transition:all .4s ease;
-}
-
-
-@keyframes orcan {
-    from {
-      opacity:0;
-    }
-    to {
-      opacity:1;
-    }
-  }
-  

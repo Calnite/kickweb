@@ -1,0 +1,35 @@
+/************
+sprint 2 song 
+************/
+
+.lo {
+    font-size:20vw;
+    line-height: .5;
+    animation: orcan linear 3s;
+}
+
+.for {
+    font-size:20vw;
+    line-height: 1;
+    animation: orcan linear 3.4s;
+}
+
+.ys {
+    font-size:20vw;
+    line-height: .5;
+    animation: orcan linear 3.8s;
+}
+
+
+@keyframes orcan {
+    0% {
+      opacity:0;
+    }
+    90% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+  
