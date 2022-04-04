@@ -1,0 +1,258 @@
+body {
+    overflow-x:hidden;
+}
+
+
+/************** 
+
+    LOOKOUT 
+
+**************/
+
+.look-out {
+    width: auto; /* 2011px */
+    height: auto; /* 353px */
+    position: absolute;
+    top: -10%;
+    left: -2%;
+    white-space: pre;
+    text-shadow: 20px 20px 0px #43C7FF;
+    transform: rotate(-4deg);
+    font-family: "Rock 3D", serif;
+    color: #ff3fd5;
+    font-size: 294px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    text-transform: uppercase;
+  }
+
+  .pg-1 {
+    margin-top: 16%;
+    white-space: pre;
+    font-family: "Lacquer", serif;
+    color: #ffffff;
+    font-size: 27px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+  }
+
+  .pg-2 {
+    white-space: pre;
+    opacity: 0.32;
+    font-family: "Lacquer", serif;
+    color: #ffffff;
+    font-size: 27px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+  }
+
+  .for-yourself {
+    width: auto; /* 2777px */
+    height: auto; /* 331px */
+    position: relative;
+    left:-15%;
+
+    white-space: pre;
+    text-shadow: 20px 20px 0px #43C7FF;
+    transform: rotate(1deg);
+    font-family: "Rock 3D", serif;
+
+    color: #ff3fd5;
+    font-size: 276px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    text-transform: uppercase;
+  }
+
+/************** 
+
+    ENEMY 
+
+**************/
+
+  .misery {
+    position: relative;
+    left: -10%;
+    margin-top:10%;
+    margin-bottom:5%;
+    white-space: pre;
+    line-height: 1.2;
+    font-family: 'Rock 3D';
+    font-size: 250px;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #43C7FF;
+    
+    text-shadow: 20px 20px 0px #FF3FD5;
+    transform: rotate(-2.5deg);
+  }
+
+  .pg-3 {
+    max-width:600px;
+    margin:auto;
+    white-space: pre;
+    font-family: "Lacquer", serif;
+    color: #ffffff;
+    font-size: 27px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+  }
+
+
+  .enemy-1 {
+    position: absolute;
+    left: -10%;
+    top: 160%;
+    
+    font-family: 'Rock 3D';
+    font-size: 250px;
+    line-height: 362px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #43C7FF;
+    
+    opacity: 0.2;
+    text-shadow: 2px 2px 0px #FF3FD5;
+    transform: rotate(-7.5deg);
+  }
+
+  .enemy-2 {
+    position: absolute;
+    left: 25%;
+    top: 160%;
+    
+    font-family: 'Rock 3D';
+    font-size: 250px;
+    line-height: 362px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #43C7FF;
+    
+    text-shadow: 2px 2px 0px #FF3FD5;
+    transform: rotate(6.5deg);
+  }
+
+  .enemy-3 {
+    position: absolute;
+    left: 60%;
+    top: 160%;
+    
+    font-family: 'Rock 3D';
+    font-size: 250px;
+    line-height: 362px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #43C7FF;
+    
+    opacity: 0.2;
+    text-shadow: 2px 2px 0px #FF3FD5;
+    transform: rotate(-7.5deg);
+  }
+
+  .look {
+    
+    white-space: pre;
+    line-height: 1.2;
+    font-family: 'Rock 3D';
+    font-size: 250px;
+    line-height: 362px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #43C7FF;
+    
+    text-shadow: 20px 20px 0px #FF3FD5;
+    transform: rotate(2.5deg);
+  }
+
+/************** 
+
+    HUH 
+
+**************/
+
+.pg-4 {
+    width: 600px;
+    margin:auto;
+    margin-top:20%;
+    
+    font-family: 'Lacquer';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 43px;
+    
+    color: #FFFFFF;
+}
+
+.huh-1 {
+    position: absolute;
+    left: -5%;
+    top: 260%;
+    
+    font-family: 'Rock 3D';
+    font-size: 250px;
+    line-height: 362px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #43C7FF;
+    
+    opacity: 0.2;
+    text-shadow: 2px 2px 0px #FF3FD5;
+    transform: rotate(-7.58deg);
+}
+
+.huh-2 {
+    position: absolute;
+    left: 25%;
+    top: 260%;
+    
+    font-family: 'Rock 3D';
+    font-size: 400px;
+    line-height: 579px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #43C7FF;
+    
+    text-shadow: 2px 2px 0px #FF3FD5;
+    transform: rotate(6.56deg);
+}
+
+.huh-3 {
+    position: absolute;
+    left: 70%;
+    top: 260%;
+    
+    font-family: 'Rock 3D';
+    font-size: 250px;
+    line-height: 362px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #43C7FF;
+    
+    opacity: 0.2;
+    text-shadow: 2px 2px 0px #FF3FD5;
+    transform: rotate(-7.58deg);
+}
+
+.rap {
+    margin-top:25%;
+
+    text-align: justify;
+    font-family: 'Lacquer';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 77px;
+    
+    color: #FFFFFF;
+    
+}

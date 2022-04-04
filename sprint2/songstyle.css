@@ -1,23 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+3D&display=swap');
+
+
 /************
 sprint 2 song 
 ************/
 
-.lo {
-    font-size:20vw;
-    line-height: .5;
-    animation: orcan linear 3s;
+h1 {
+  font-family: 'Rock 3D', sans-serif;
+  text-transform: uppercase;
+  color: white;
+  font-size: 20vw;
+  white-space: nowrap;
+  text-align: center;
+  line-height: 1;
+  letter-spacing: -2vw;
+  word-spacing: -8vw;
+  animation: cyclone infinite .1s;
 }
 
-.for {
-    font-size:20vw;
-    line-height: 1;
-    animation: orcan linear 3.4s;
+@keyframes cyclone {
+  from {
+    text-shadow: 4px 0 0 #FF3FD5, -4px 0 0 #43C7FF;
+  }
+  to {
+    text-shadow: 8px 4px 0 #FF3FD5, -4px 4px 0 #43C7FF;
+  }
+}
+
+.lo {
+    animation: orcan linear 4s;
+    position: relative;
+    left: -6%;
+    margin-top:1vw;
 }
 
 .ys {
-    font-size:20vw;
-    line-height: .5;
-    animation: orcan linear 3.8s;
+    animation: orcan linear 4.8s;
+    position: relative;
+    left: -10%;
 }
 
 
@@ -25,11 +45,45 @@ sprint 2 song
     0% {
       opacity:0;
     }
-    90% {
+    95% {
       opacity:0;
     }
     100% {
       opacity:1;
     }
+}
+
+#rap-box {
+  margin:20vh auto;
+}
+
+p{
+  width: 102%;
+  margin-left:-1%;
+  font-size: 8rem;
+  display: block;
+  text-align: justify;
+  line-height: .5;
+}
+
+.char{
+  font-size: 8rem;
+  line-height: .5;
+  height: 40px;
+  animation: rap 1s ease-out 1 both;
+  animation-delay: 1s;
+  display: inline-block;
+}
+
+
+@keyframes rap{
+  from{
+      opacity: 0;
+      transform: perspective(500px) translate3d(-35px, -40px, -150px) rotate3d(1, -1, 0, 35deg);
+  }
+  to{
+      opacity: 1;
+      transform: perspective(500px) translate3d(0, 0, 0);
+  }
 }
   

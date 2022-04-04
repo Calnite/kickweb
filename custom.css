@@ -70,11 +70,6 @@ hr {
     margin-left:1rem;
 }
 
-.container {
-    padding:2rem;
-    margin:auto;
-}
-
 .btn.btn-primary {
     display:block;
     background:transparent;
@@ -121,38 +116,6 @@ hr {
     z-index:-1;
 }
 
-/************ 
-sprint 1 song 
-************/
-
-.redknot {
-    font-family: 'Noto Serif KR', serif;
-}
-
-.intro, .verse, .chorus, .solo,
-.strophe {
-    margin-bottom:3rem;
-}
-
-.chorus {
-    font-family: 'Ruthie', cursive;
-    font-size:2.2rem;
-}
-
-.verse {
-    font-family: 'Eater', cursive;
-    font-size:1.2rem;
-}
-
-.solo {
-    font-family: 'akronim', cursive;
-    font-size:1.6rem;
-}
-
-.back {
-    opacity:.2;
-    animation-duration: 0.01s;
-    animation-name: cyclone;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+::-webkit-scrollbar {
+    width: 0;
 }

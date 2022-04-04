@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Eater&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ruthie&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rock+3D&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Monda&display=swap');
 
@@ -15,20 +14,13 @@ body {
     color:#fff;
     font-family: 'Lacquer', cursive;
     font-size:1.2rem;
+    overflow-x: hidden;
 }
 
 a {
     text-decoration: none!important;
 }
 
-@keyframes cyclone {
-  from {
-    text-shadow: 2px 0 0 #FF3FD5, -4px 0 0 #43C7FF;
-  }
-  to {
-    text-shadow: 4px 2px 0 #FF3FD5, -2px 2px 0 #43C7FF;
-  }
-}
 
 ::-moz-selection { background: transparent;}
 ::selection { background: transparent;}
@@ -54,4 +46,8 @@ a {
     background-size:5px;
     opacity:.1;
     z-index:-1;
+}
+
+::-webkit-scrollbar {
+  width: 0;
 }
