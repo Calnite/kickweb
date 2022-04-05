@@ -6,19 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    
+
+
     <link  rel="stylesheet"  href="sprint2style.css">
     <link  rel="stylesheet"  href="songstyle.css">
 
     <title>Kickweb Sprint 2</title>
 </head>
 <body>
-    <div class="particle-wrapper">
-        <div class="particle particle-1"></div>
-        <div class="particle particle-2"></div>
-        <div class="particle particle-3"></div>
-        <div class="particle particle-4"></div>
-    </div>
 
     <div class="lookout">
         <div class="lo"><h1>look out</h1></div>
@@ -26,7 +21,7 @@
     </div>
 
     <div class="wake">
-        <div class="iw">
+        <div class="para">
         I wake up to the sounds of the silence that allows
         For my mind to run around with my ear up to the ground
         I'm searching to behold the stories that are told
@@ -40,20 +35,24 @@
         <div class="look"><h1>Look Look Look Look</h1></div>
     </div>
 
-
-    <div class="oyt" style="height:20vh; margin:auto;">
-    <marquee style="z-index:2;position:relative;left:119px;top:83px;height:74px;"scrollamount="7" direction="down">Tell you you're the greatest But once you turn they hate us</marquee>
-    <marquee style="z-index:2;position:relative;left:81px;height:51px;"scrollamount="6" direction="down">Tell you you're the greatest But once you turn they hate us</marquee>
-    <marquee style="z-index:2;position:relative;left:175px;top:38px;height:456px;"direction="down">Tell you you're the greatest But once you turn they hate us</marquee>
-    <marquee style="z-index:2;position:relative;left:228px;top:19px;height:77px;"scrollamount="6" direction="down">Tell you you're the greatest But once you turn they hate us</marquee>
-    <marquee style="z-index:2;position:relative;left:296px;top:70px;height:438px;"scrollamount="7" direction="down">Tell you you're the greatest But once you turn they hate us</marquee>
-    <marquee style="z-index:2;position:relative;left:148px;top:63px;height:194px;"scrollamount="1" direction="down">Tell you you're the greatest But once you turn they hate us</marquee>
-    <marquee style="z-index:2;position:relative;left:57px;top:76px;height:16px;"scrollamount="1" direction="down">Tell you you're the greatest But once you turn they hate us</marquee>
-    <marquee style="z-index:2;position:relative;left:47px;top:92px;height:86px;"scrollamount="1" direction="down">Tell you you're the greatest But once you turn they hate us</marquee>
-    <marquee style="z-index:2;position:relative;left:21px;top:31px;height:253px;"scrollamount="6" direction="down">Tell you you're the greatest But once you turn they hate us</marquee>
-    <marquee style="z-index:2;position:relative;left:46px;top:44px;height:306px;"direction="down">Tell you you're the greatest But once you turn they hate us</marquee>
+    <div class="words">
+        <div class="para">
+        Your words up on the wall as you're praying for my fall
+        And the laughter in the halls and the names that I've been called
+        I stack it in my mind and I'm waiting for the time
+        When I show you what it's like to be words spit in a mic
+        </div>
     </div>
 
+
+    <div class="oyt">
+        <p class="ty">Tell you you're the greatest</p>
+        <p class="bo">But once you turn they hate us</p>
+    </div>
+
+    <div class="huh">
+        <h1>Huh</h1>
+    </div>
 
     <div id="rap-box">
         <p id="rap-text">Uh, look Okay, I'm hoping that somebody pray for me I'm praying that somebody hope for me I'm staying where nobody 'posed to be P-P-Posted, being a wreck of emotions Ready to go whenever, just let me know The road is long, so put the pedal into the floor The enemy on my trail, my energy unavailable I'ma tell 'em hasta luego They wanna plot on my trot to the top I've been outta shape, thinkin' out the box, I'm an astronaut I blasted off the planet rock to cause catastrophe And it matters more because I had it not Had I thought about wreaking havoc on an opposition Kinda shocking they wanted static with precision, I'm automatic Quarterback, I ain't talkin' sacking Pack it, pack it up, I don't panic Batter, batter up, who the baddest? It don't matter 'cause we at ya throat</p>
@@ -66,11 +65,12 @@
     <div class="timeprogress"></div>
   <div class="static"></div>
   <div class="glitch"></div>
-
-  <script src="scrolltrigger.js"></script>
+  
   <script src="rapanimation.js"></script>
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js" ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/ScrollTrigger.min.js"></script>
+  <script src="gsapScript.js"></script>
 </body>
 </html>
