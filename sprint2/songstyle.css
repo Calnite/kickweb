@@ -1,6 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+3D&display=swap');
 
 
+.timeprogress {
+  background:linear-gradient(90deg, #FF3FD5, #43C7FF);
+  height:5px;
+  position:fixed;
+  top:0;
+  left:0;
+  animation-name:timer;
+  animation-duration: 171s;
+  animation-delay: 0;
+}
+
+@keyframes timer {
+  from {
+    width:0;
+  }
+  to {
+    width:100vw;
+  }
+}
+
 /************
 sprint 2 song 
 ************/
@@ -31,7 +51,7 @@ h1 {
     animation: orcan linear 4s;
     position: relative;
     left: -6%;
-    margin-top:1vw;
+    margin-top:10vw;
 }
 
 .ys {
@@ -53,11 +73,47 @@ h1 {
     }
 }
 
-#rap-box {
-  margin:20vh auto;
+.iw {
+  margin: 16% auto;
+  white-space: pre;
+  font-family: "Lacquer", serif;
+  font-size: 27px;
+  letter-spacing: 0px;
+  line-height: 1.2;
 }
 
-p{
+.misery,  .look {
+  
+  animation: slide-left 20s linear;
+}
+.enemy {
+  
+  animation: slide-right 20s linear;
+}
+
+@keyframes slide-left {
+  from {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+}
+  
+@keyframes slide-right {
+    from {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    to {
+      -webkit-transform: translateX(100%);
+              transform: translateX(100%);
+    }
+}
+
+p {
   width: 102%;
   margin-left:-1%;
   font-size: 8rem;
@@ -86,4 +142,6 @@ p{
       transform: perspective(500px) translate3d(0, 0, 0);
   }
 }
+
+
   

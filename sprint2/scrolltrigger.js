@@ -18,7 +18,7 @@ function scrollTrigger(selector, options = {}) {
       }
       return
     }
-    let observer = new IntersectionObserver((entries, observer) =>; {
+    let observer = new IntersectionObserver((entries, observer) => {
       entries.forEach(entry => {
         if(entry.isIntersecting) {
           if(options.cb) {
@@ -34,8 +34,23 @@ function scrollTrigger(selector, options = {}) {
   }
   
   // scrollTrigger('#rap-text')
-  scrollTrigger('.char', {
-    rootMargin: '-100vh',
+  scrollTrigger('#rap-text', {
+    rootMargin: '-200px',
+  })
+
+  
+  scrollTrigger('.misery', {
+    rootMargin: '-200px',
+  })
+
+  
+  scrollTrigger('.enemy', {
+    rootMargin: '-200px',
+  })
+
+  
+  scrollTrigger('.look', {
+    rootMargin: '-200px',
   })
 
   /*
