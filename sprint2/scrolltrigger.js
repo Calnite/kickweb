@@ -37,22 +37,6 @@ function scrollTrigger(selector, options = {}) {
   scrollTrigger('#rap-text', {
     rootMargin: '-200px',
   })
-
-  
-  scrollTrigger('.misery', {
-    rootMargin: '-200px',
-  })
-
-  
-  scrollTrigger('.enemy', {
-    rootMargin: '-200px',
-  })
-
-  
-  scrollTrigger('.look', {
-    rootMargin: '-200px',
-  })
-
   /*
   scrollTrigger('.loader', {
     rootMargin: '-200px',

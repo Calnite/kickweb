@@ -1,26 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+3D&display=swap');
 
-
-.timeprogress {
-  background:linear-gradient(90deg, #FF3FD5, #43C7FF);
-  height:5px;
-  position:fixed;
-  top:0;
-  left:0;
-  animation-name:timer;
-  animation-duration: 171s;
-  animation-delay: 0;
-}
-
-@keyframes timer {
-  from {
-    width:0;
-  }
-  to {
-    width:100vw;
-  }
-}
-
 /************
 sprint 2 song 
 ************/
@@ -47,33 +26,22 @@ h1 {
   }
 }
 
+.lookout {
+  opacity:0;
+}
+
 .lo {
-    animation: orcan linear 4s;
     position: relative;
     left: -6%;
     margin-top:10vw;
 }
 
 .ys {
-    animation: orcan linear 4.8s;
     position: relative;
     left: -10%;
 }
 
-
-@keyframes orcan {
-    0% {
-      opacity:0;
-    }
-    95% {
-      opacity:0;
-    }
-    100% {
-      opacity:1;
-    }
-}
-
-.iw {
+.para {
   margin: 16% auto;
   white-space: pre;
   font-family: "Lacquer", serif;
@@ -82,36 +50,29 @@ h1 {
   line-height: 1.2;
 }
 
-.misery,  .look {
-  
-  animation: slide-left 20s linear;
-}
-.enemy {
-  
-  animation: slide-right 20s linear;
+.oyt {
+  height:100vh; 
+  margin:10vh auto;
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
 
-@keyframes slide-left {
-  from {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  to {
-    -webkit-transform: translateX(-100%);
-            transform: translateX(-100%);
-  }
+.ty, .bo {
+  width:100%;
+  margin:auto;
 }
-  
-@keyframes slide-right {
-    from {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-    }
-    to {
-      -webkit-transform: translateX(100%);
-              transform: translateX(100%);
-    }
+
+.huh {
+  height:100vh; 
+  margin:10vh auto;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  opacity:0;
 }
+
 
 p {
   width: 102%;
