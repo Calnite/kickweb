@@ -41,19 +41,16 @@ hero themes
     cursor: pointer;
 }
 
-
-
 .glitch {
     animation: glitch 4s 5s infinite;
   }
   
-  
   @keyframes glitch {
     1%{
-      transform: rotateX(10deg) skewX(90deg);
+      transform: rotateX(10deg), skewX(90deg);
     }
     2%{
-      transform: rotateX(0deg) skewX(0deg);
+      transform: rotateX(0deg), skewX(0deg);
     }
   }
 

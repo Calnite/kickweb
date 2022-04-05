@@ -27,14 +27,6 @@ const tl = gsap.timeline({
         start: 'center 60%',
         end: 'center 0',
         scrub: true,
-    },
-
-    
-    scrollTrigger: {
-        trigger: '.huh',
-        start: 'center 60%',
-        end: 'center 0',
-        scrub: true,
     }
 });
 
@@ -42,8 +34,16 @@ tl.to('.lookout', {opacity: 0, duration: 2})
     .to('.lookout', {opacity: 1, duration: 5})
     .to('.lookout', {opacity: 0, duration: 5});
 
+const huh = gsap.timeline({
+        scrollTrigger: {
+            trigger: '.huh',
+            start: 'center 80%',
+            end: 'center 0',
+            scrub: true,
+        }
+    });
 
-tl.to('.huh', {opacity: 0, duration: 2})
+huh.to('.huh', {opacity: 0, duration: 2})
     .to('.huh', {opacity: 1, duration: 5})
     .to('.huh', {opacity: 0, duration: 5});
 
@@ -106,8 +106,7 @@ gsap.from('.bo', {opacity:0, duration: 10,
 
 let st = ScrollTrigger.create({
     trigger: ".char",
-    start: "top 50%",
-    end: "top 10%",
-    onUpdate: self => console.log("direction:", self.direction)
+    start: "top 20%",
+    end: "bottom 0%",
   });
 

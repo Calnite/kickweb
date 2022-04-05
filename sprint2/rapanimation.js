@@ -1,7 +1,7 @@
 //Reveal
 var text = document.getElementById('rap-text');
         var newDom = '';
-        var animationDelay = 10;
+        var animationDelay = 30;
 
         for(let i = 0; i < text.innerText.length; i++)
         {
