@@ -1,4 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+3D&display=swap');
+.timeprogress {
+  background:linear-gradient(90deg, #FF3FD5, #43C7FF);
+  height:5px;
+  position:fixed;
+  top:0;
+  left:0;
+  animation-name:timer;
+  animation-duration: 171s;
+  animation-delay: 0;
+}
+
+@keyframes timer {
+  from {
+    width:0;
+  }
+  to {
+    width:100vw;
+  }
+}
+
+
 
 /************
 sprint 2 song 
@@ -63,9 +84,9 @@ h1 {
   margin:auto;
 }
 
-.huh {
+.huh ,.end{
   height:100vh; 
-  margin:10vh auto;
+  margin:5vh auto;
   display:flex;
   align-items: center;
   justify-content: center;
@@ -104,5 +125,25 @@ p {
   }
 }
 
+
+.myenemy{
+  font-size:20rem;
+  text-transform:uppercase;
+  text-align:center;
+  letter-spacing:10px;
+  margin:auto;
+  font-family: 'Monda', sans-serif;
+  color:#e71d36;
+  animation: end 4s 5s infinite;
+}
+
+@keyframes end {
+  1%{
+    transform: rotateX(10deg), skewX(90deg);
+  }
+  2%{
+    transform: rotateX(0deg), skewX(0deg);
+  }
+}
 
   
