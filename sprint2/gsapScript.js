@@ -48,7 +48,6 @@ huh.to('.huh', {opacity: 0, duration: 2})
     .to('.huh', {opacity: 0, duration: 5});
 
 
-
 gsap.from('.misery', {x:-1400, duration: 10,
     scrollTrigger: {
         trigger: '.misery',

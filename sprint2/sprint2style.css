@@ -32,7 +32,7 @@ a {
     top: 0;
     left: 0;
     background:url(https://cdn.discordapp.com/attachments/746833184662224966/940698343192018964/ezgif.com-gif-maker.gif) center fixed;
-    opacity:.8;
+    opacity:1;
     z-index:-1;
 }
 
@@ -44,7 +44,7 @@ a {
     left: 0;
     background:url(https://blackwings.neocities.org/ti/tile01.gif) center fixed;
     background-size:5px;
-    opacity:.1;
+    opacity:.5;
     z-index:-1;
 }
 
