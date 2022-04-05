@@ -88,7 +88,7 @@ p {
   line-height: .5;
   height: 40px;
   animation: rap 1s ease-out 1 both;
-  animation-delay: 1s;
+  animation-delay: 100s;
   display: inline-block;
 }
 
