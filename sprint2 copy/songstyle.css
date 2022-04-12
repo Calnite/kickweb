@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+3D&display=swap');
+
+.timeprogress {
+  background:linear-gradient(90deg, #FF3FD5, #43C7FF);
+  height:5px;
+  position:fixed;
+  top:0;
+  left:0;
+  animation-name:timer;
+  animation-duration: 171s;
+  animation-delay: 0;
+}
+
+@keyframes timer {
+  from {
+    width:0;
+  }
+  to {
+    width:100vw;
+  }
+}
+
+
+/************
+sprint 3 song 
+************/
+
+h1 {
+  font-family: 'Rock 3D', sans-serif;
+  text-transform: uppercase;
+  color: white;
+  font-size: 20vw;
+  white-space: nowrap;
+  text-align: center;
+  line-height: .5;
+  letter-spacing: -2vw;
+  word-spacing: -8vw;
+  animation: cyclone infinite .1s;
+}
+
+@keyframes cyclone {
+  from {
+    text-shadow: 4px 0 0 #FF3FD5, -4px 0 0 #43C7FF;
+  }
+  to {
+    text-shadow: 8px 4px 0 #FF3FD5, -4px 4px 0 #43C7FF;
+  }
+}
+
+.lookout {
+  min-height:90vh;
+  opacity:0;
+  margin-top:10vw;
+}
+
+.lo {
+    position: relative;
+    left: -6%;
+    margin-top:10vw;
+}
+
+.ys {
+    position: relative;
+    left: -10%;
+}
+
+.para {
+  margin:10vh auto;
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+.left, .right, .left2, .right2 {
+  margin-bottom:8vh;
+}
+
+.oyt , .wake, .words{
+  height:90vh; 
+  margin:5vh auto;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ty, .bo {
+  width:100%;
+  margin:auto;
+}
+
+.huh{
+  height:90vh; 
+  margin:5vh auto;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  opacity:0;
+}
+
+.lookbox{
+  height:90vh; 
+  margin:5vh auto 20vh;
+  display:block;
+  text-align: center;
+}
+
+.look1 {
+  color:#43C7Ff;
+}
+
+.look2 {
+  color:#FF3FD5;
+  margin-top:-15vw;
+}
+
+.look3 {
+  color:white;
+  margin-top:-15vw;
+}
+
+
+p {
+  width: 102%;
+  margin-left:-1%;
+  font-size: 6rem;
+  display: block;
+  text-align: justify;
+  line-height: .5;
+}
+
+.char{
+  font-size: 6rem;
+  line-height: .5;
+  height: 40px;
+  animation: rap 1s ease-out 1 both;
+  display: inline-block;
+}
+
+
+@keyframes rap{
+  from{
+      opacity: 0;
+      transform: perspective(500px) translate3d(-35px, -40px, -150px) rotate3d(1, -1, 0, 35deg);
+  }
+  to{
+      opacity: 1;
+      transform: perspective(500px) translate3d(0, 0, 0);
+  }
+}
+
+.end {
+  height:90vh;
+  text-align: center;
+  margin-top:30vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#end {
+  margin:auto;
+  text-align: center;
+  font-size:5vw;
+  animation: end 5s;
+}
+
+@keyframes end{
+  from{
+    color:white;
+  }
+  to{
+    color:#e71d36;
+  }
+}
+
+  

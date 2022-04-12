@@ -1,0 +1,77 @@
+/************
+hero themes 
+************/
+
+.hero {
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    overflow:hidden;
+}
+
+.hero-title{
+    font-size:20rem;
+    text-transform:uppercase;
+    text-align:center;
+    letter-spacing:10px;
+    margin:auto;
+}
+
+.hero-title a {
+    font-family: 'Monda', sans-serif;
+    color:#e71d36;
+    animation: hero 5s infinite alternate;
+}
+
+@keyframes hero {
+    from{
+        text-shadow: 0 0 10px #e71d36;
+    }
+    to{
+        text-shadow: 0 0 30px #e71d36;
+    }
+  }
+
+.hero-title a:hover, .hero-title a:focus{
+    color: #fff !important;;
+    transition:all .4s ease;
+    cursor: pointer;
+}
+
+.glitch {
+    animation: glitch 4s 5s infinite;
+  }
+  
+  @keyframes glitch {
+    1%{
+      transform: rotateX(10deg), skewX(90deg);
+    }
+    2%{
+      transform: rotateX(0deg), skewX(0deg);
+    }
+  }
+
+.static {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background:url(https://cdn.discordapp.com/attachments/746833184662224966/940698343192018964/ezgif.com-gif-maker.gif) center fixed;
+    opacity:.8;
+    z-index:-1;
+}
+
+.scanlines {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background:url(https://blackwings.neocities.org/ti/tile01.gif) center fixed;
+    background-size:5px;
+    opacity:.1;
+    z-index:-1;
+}
+  

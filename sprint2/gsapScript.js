@@ -104,8 +104,11 @@ gsap.from('.bo', {opacity:0, duration: 10,
 })
 
 let st = ScrollTrigger.create({
-    trigger: ".char",
+    trigger: "#rap-text",
     start: "top 20%",
     end: "bottom 0%",
+    onUpdate: self => {
+        console.log("progress:", self.progress);
+    }
   });
 

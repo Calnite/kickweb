@@ -34,7 +34,7 @@ function scrollTrigger(selector, options = {}) {
   }
   
   // scrollTrigger('#rap-text')
-  scrollTrigger('#rap-text', {
+  scrollTrigger('.char', {
     rootMargin: '-200px',
   })
   /*
